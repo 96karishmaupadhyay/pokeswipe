@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: rgb(46, 10, 87);
+    height: 66px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav button{
+    background-color: yellow;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    color: orange;
+
+}
+.logoSection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import styles from "./Card.module.css"
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Card = ({ pokedata, loading, pokedetails }) => {
     const [currIndex, setcurrIndex] = useState(0)//to handle each pokemon
     const [like,setLike]=useState("false") //for handle color of icon
@@ -37,9 +37,9 @@ const Card = ({ pokedata, loading, pokedetails }) => {
 
     return (
         <div className={styles.cardContainer}>
-       <Link to="/team">
+       {/* <Link to="/team">
         <button className={styles.teambtn}>See your team</button>
-      </Link>
+      </Link> */}
         <div className={styles.prevbtn}>
         <button onClick={handlePrev} disabled={pokedata.length <= 1} style={{ marginRight: '10px' }} >Previous</button>
         </div>

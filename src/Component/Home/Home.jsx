@@ -19,7 +19,7 @@ function Home() {
             <p>Build your favorite team</p>
         </div>
         <div>
-        <Link to="/play">//used to routing 
+        <Link to="/play">
         <button className={styles.startbtn}>Let's start</button>
       </Link>
         </div>
